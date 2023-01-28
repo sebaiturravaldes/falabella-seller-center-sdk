@@ -19,5 +19,12 @@ yarn add falabella-seller-center-sdk
 ## Uso
 
 ```js
+import FalabellaSellerCenter from 'falabella-seller-center-sdk'
 
+const apiKey = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+const userId = 'me@email.com'
+const falabellaSellerCenter = new FalabellaSellerCenter(apiKey, userId)
+
+const products = await falabellaSellerCenter.sdk.get('GetProducts')
+console.log('products', products.data)
 ```
