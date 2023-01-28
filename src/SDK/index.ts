@@ -1,6 +1,12 @@
 import { AxiosInstance, AxiosRequestConfig } from 'axios'
 
-type Action = 'GetProducts' | 'ProductCreate' | 'FeedStatus' | 'GetBrands'
+type Action =
+  | 'GetProducts'
+  | 'ProductCreate'
+  | 'FeedStatus'
+  | 'GetBrands'
+  | 'GetCategoryTree'
+  | 'GetCategoryAttributes'
 
 export default class SDK {
   axiosInstance: AxiosInstance
