@@ -15,7 +15,7 @@ export default class SDK {
     this.axiosInstance = axiosInstance
   }
 
-  get(action: Action, params?: object, timeout?: number) {
+  get(action: string, params?: object, timeout?: number) {
     const config: AxiosRequestConfig = {
       ...(timeout && { timeout }),
       params: {
