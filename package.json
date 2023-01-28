@@ -2,6 +2,7 @@
   "name": "falabella-seller-center-sdk",
   "version": "1.0.7",
   "description": "Implementación de la API de Falabella Seller Center SDK en JavaScript",
+  "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
