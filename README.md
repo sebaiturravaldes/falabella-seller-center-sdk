@@ -1,6 +1,6 @@
 # Falabella Seller Center SDK JavaScript
 
-Este repositorio contiene una implementación de la API de Falabella Seller Center para ser usada con JavaScript
+Este repositorio contiene una implementación de la [API de Falabella Seller Center](https://developers.falabella.com/) para ser usada con JavaScript
 
 ## Instalación
 
@@ -100,4 +100,4 @@ console.log('createProduct', createProduct.data)
 
 ### Acciones disponibles en la API de Falabella Seller Center
 
-La documentación donde encontrarás todas las acciones disponibles: https://developers.falabella.com/v400.0.0
+La documentación donde encontrarás todas las acciones disponibles: https://developers.falabella.com/
